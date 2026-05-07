@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a488686e-3067-406c-8a11-cbfa0721763e",
+  "path": "book-writer-2",
+  "path_key": "book-writer-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

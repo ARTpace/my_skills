@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "92515740-4341-4ca1-813c-846c488795fc",
+  "path": "trello-2",
+  "path_key": "trello-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

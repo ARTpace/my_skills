@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ef5d843-dd75-4f5c-9af2-f20592674729",
+  "path": "travel-cn",
+  "path_key": "travel-cn",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

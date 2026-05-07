@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f9f2c7a3-3814-4637-a691-07d604d70f77",
+  "path": "online-search",
+  "path_key": "online-search",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

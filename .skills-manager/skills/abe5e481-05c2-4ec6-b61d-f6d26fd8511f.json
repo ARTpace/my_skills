@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "abe5e481-05c2-4ec6-b61d-f6d26fd8511f",
+  "path": "web-artifacts-builder-2",
+  "path_key": "web-artifacts-builder-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

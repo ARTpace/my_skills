@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "da19931d-0695-4691-9410-32a6a9a24cad",
+  "path": "weather-2",
+  "path_key": "weather-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

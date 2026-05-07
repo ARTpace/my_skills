@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3f0403bc-f906-4508-8905-793cc8faea64",
+  "path": "飞书办公套件",
+  "path_key": "飞书办公套件",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

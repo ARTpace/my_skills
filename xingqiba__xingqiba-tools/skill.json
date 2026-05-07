@@ -1,0 +1,9 @@
+{
+  "id": "xingqiba/ai-tools-kit",
+  "name": "AI工具箱",
+  "version": "1.0.0",
+  "description": "OpenClaw越用越聪明工具包，包含个性化Prompt、记忆强化、工作流模板等",
+  "author": "xingqiba",
+  "tags": ["效率", "AI", "工具", "Prompt"],
+  "readme": "OpenClaw越用越聪明工具包-完整版.md"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "afc2de14-3cd9-4f29-943f-13ba1855b637",
+  "path": "newsletter-curation-2",
+  "path_key": "newsletter-curation-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

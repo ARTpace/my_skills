@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "52f150e7-77f2-4c8d-ac5e-039a3d1aaa78",
+  "path": "cron-creator-2",
+  "path_key": "cron-creator-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

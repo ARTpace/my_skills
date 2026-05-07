@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "51e48796-6aed-4ddc-a8fc-231f88f8a967",
+  "path": "qclaw-text-file",
+  "path_key": "qclaw-text-file",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

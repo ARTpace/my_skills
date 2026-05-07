@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b7c9ab8-8780-4544-8985-a2da3440ae3a",
+  "path": "百度网盘",
+  "path_key": "百度网盘",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4c3b5959-068d-4b45-bd07-d8d587b89f9c",
+  "path": "browser-use-2",
+  "path_key": "browser-use-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

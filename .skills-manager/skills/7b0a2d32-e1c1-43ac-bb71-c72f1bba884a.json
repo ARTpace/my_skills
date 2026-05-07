@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7b0a2d32-e1c1-43ac-bb71-c72f1bba884a",
+  "path": "api-gateway",
+  "path_key": "api-gateway",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

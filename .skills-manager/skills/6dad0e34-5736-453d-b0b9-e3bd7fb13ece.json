@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6dad0e34-5736-453d-b0b9-e3bd7fb13ece",
+  "path": "gemini-logo-remover-2",
+  "path_key": "gemini-logo-remover-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

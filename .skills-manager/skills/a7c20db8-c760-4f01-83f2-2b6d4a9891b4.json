@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a7c20db8-c760-4f01-83f2-2b6d4a9891b4",
+  "path": "Excel Analysis",
+  "path_key": "excel analysis",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8dce485f-7608-4865-9621-5ca0281c0047",
+  "path": "tmux-2",
+  "path_key": "tmux-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

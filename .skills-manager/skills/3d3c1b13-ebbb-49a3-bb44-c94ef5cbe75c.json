@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d3c1b13-ebbb-49a3-bb44-c94ef5cbe75c",
+  "path": "unity-level-design",
+  "path_key": "unity-level-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bde26bcd-cab8-4bd8-af9b-176ace6db8fc",
+  "path": "file-skill",
+  "path_key": "file-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

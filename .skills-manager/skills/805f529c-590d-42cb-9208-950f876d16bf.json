@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "805f529c-590d-42cb-9208-950f876d16bf",
+  "path": "admapix",
+  "path_key": "admapix",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

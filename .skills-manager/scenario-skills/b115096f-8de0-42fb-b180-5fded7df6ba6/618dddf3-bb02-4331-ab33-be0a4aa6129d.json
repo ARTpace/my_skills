@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "scenario_id": "b115096f-8de0-42fb-b180-5fded7df6ba6",
+  "skill_id": "618dddf3-bb02-4331-ab33-be0a4aa6129d",
+  "sort_order": 87,
+  "tools": {
+    "antigravity": true,
+    "claude_code": true,
+    "cline": true,
+    "codex": true,
+    "cursor": true,
+    "gemini_cli": true,
+    "kiro": true,
+    "openclaw": true,
+    "opencode": true,
+    "qoder": true,
+    "roo_code": true,
+    "trae": true,
+    "trae_cn": true,
+    "windsurf": true
+  }
+}

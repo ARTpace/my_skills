@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a247d6b1-2d41-4d6c-a30f-8f1c52a940e8",
+  "path": "youdaonote",
+  "path_key": "youdaonote",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

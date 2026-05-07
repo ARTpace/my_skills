@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d6c46f44-6eab-46bb-b18a-192720dd620c",
+  "path": "skill-finder-2",
+  "path_key": "skill-finder-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6697fd48-8247-4f71-a9c0-30c1a2f28768",
+  "path": "tech-news-digest",
+  "path_key": "tech-news-digest",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

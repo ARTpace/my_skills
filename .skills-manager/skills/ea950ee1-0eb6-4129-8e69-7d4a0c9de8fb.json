@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea950ee1-0eb6-4129-8e69-7d4a0c9de8fb",
+  "path": "百度搜索",
+  "path_key": "百度搜索",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

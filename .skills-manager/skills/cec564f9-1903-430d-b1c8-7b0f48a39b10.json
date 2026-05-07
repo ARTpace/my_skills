@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cec564f9-1903-430d-b1c8-7b0f48a39b10",
+  "path": "gws-gmail-watch-2",
+  "path_key": "gws-gmail-watch-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1174be1b-2677-42f2-a42d-2d00a96558d4",
+  "path": "ecommerce-platform-rules",
+  "path_key": "ecommerce-platform-rules",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

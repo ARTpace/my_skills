@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "be87c239-30a0-4149-9b56-bc367fc2da6d",
+  "path": "lexiang-knowledge-base-2",
+  "path_key": "lexiang-knowledge-base-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

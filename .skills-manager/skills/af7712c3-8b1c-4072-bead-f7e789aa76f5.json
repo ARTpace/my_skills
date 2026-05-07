@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "af7712c3-8b1c-4072-bead-f7e789aa76f5",
+  "path": "smart-file-organizer",
+  "path_key": "smart-file-organizer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

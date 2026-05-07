@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fb7a91be-8963-4a51-98c5-6a8ea3aa0a30",
+  "path": "Word 文档生成",
+  "path_key": "word 文档生成",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

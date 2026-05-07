@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "514b84de-cc51-49ce-a253-11fff0f307b6",
+  "path": "doubao-watermark-remover-2",
+  "path_key": "doubao-watermark-remover-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

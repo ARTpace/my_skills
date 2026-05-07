@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e856ef4a-0db2-4ab5-8006-1cfa6f73da51",
+  "path": "workrally",
+  "path_key": "workrally",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

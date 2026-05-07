@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ce4fcdf0-b32c-42b5-85c4-28f2c340ccf4",
+  "path": "Unity",
+  "path_key": "unity",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

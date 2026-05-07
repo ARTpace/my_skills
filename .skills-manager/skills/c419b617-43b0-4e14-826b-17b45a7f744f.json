@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c419b617-43b0-4e14-826b-17b45a7f744f",
+  "path": "Memory Optimizer",
+  "path_key": "memory optimizer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "author": "aktsmm",
+  "created_at": 1773113745,
+  "description": "Full-featured Agent Skills management tool.",
+  "install_url": "https://github.com/aktsmm/agent-skills",
+  "marketplace_skill_id": "sk_9e99bb55a805293b",
+  "marketplace_skill_slug": "aktsmm/agent-skills/skill-finder",
+  "marketplace_source_id": "src_skills_sh_home",
+  "name": "skill-finder",
+  "remote_revision": "market-api-fnv64:131ec5cfb11212b3",
+  "repo_url": "https://github.com/aktsmm/agent-skills",
+  "skill_path": "skill-finder",
+  "source": "marketplace",
+  "tags": [],
+  "version": "1.0"
+}

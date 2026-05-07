@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1845a8e-cd54-4d82-a0bb-0362c392114e",
+  "path": "wendao-partner-qclaw-skill",
+  "path_key": "wendao-partner-qclaw-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

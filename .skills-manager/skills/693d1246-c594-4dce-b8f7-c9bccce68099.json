@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "693d1246-c594-4dce-b8f7-c9bccce68099",
+  "path": "文件智能整理器",
+  "path_key": "文件智能整理器",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

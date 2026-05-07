@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6822afd-78db-4fa0-8906-7a0927eb6705",
+  "path": "nuwa-skill",
+  "path_key": "nuwa-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

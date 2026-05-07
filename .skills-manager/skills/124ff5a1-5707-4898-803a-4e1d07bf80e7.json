@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "124ff5a1-5707-4898-803a-4e1d07bf80e7",
+  "path": "session-logs",
+  "path_key": "session-logs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

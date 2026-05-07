@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7454596-0517-4b30-9f3c-de92248ae2ee",
+  "path": "腾讯云知",
+  "path_key": "腾讯云知",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

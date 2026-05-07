@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ed45d1c4-fc2f-4350-b1b8-6cf47072bb9c",
+  "path": "taobao-listing",
+  "path_key": "taobao-listing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

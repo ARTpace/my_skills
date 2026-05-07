@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1b3ca27c-c65a-4a49-a161-7bce3b197cd1",
+  "path": "flyai",
+  "path_key": "flyai",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,49 @@
+[22:18:11] 移动: SKILL.md → Documents/SKILL.md
+[22:18:11] 移动: organize_log_20260304_215305.txt → Documents/organize_log_20260304_215305.txt
+[22:18:11] 移动: organize_log_20260304_215313.txt → Documents/organize_log_20260304_215313.txt
+[22:18:11] 移动: organize_log_20260304_221810.txt → Documents/organize_log_20260304_221810.txt
+[22:18:11] 移动: organize.py → Code/organize.py
+[22:18:11] 移动: config_generator.py → Code/config_generator.py
+[22:18:11] 移动: undo.py → Code/undo.py
+[22:18:11] 移动: trial_version.py → Code/trial_version.py
+[22:18:11] 移动: test_runner.py → Code/test_runner.py
+[22:18:11] 移动: DOC_Doc Document1 202603_20260304.pdf → Documents/DOC_Doc Document1 202603_20260304.pdf
+[22:18:11] 移动: DOC_Doc Document2 202603_20260304.docx → Documents/DOC_Doc Document2 202603_20260304.docx
+[22:18:11] 移动: IMG_20260304_010.jpg → Images/IMG_20260304_010.jpg
+[22:18:11] 移动: IMG_20260304_011.jpg → Images/IMG_20260304_011.jpg
+[22:18:11] 移动: FILE_20260304_012.py → Code/FILE_20260304_012.py
+[22:18:11] 移动: FILE_20260304_013.zip → Archives/FILE_20260304_013.zip
+[22:18:11] 移动: FILE_20260304_014.mp3 → Audio/FILE_20260304_014.mp3
+[22:18:11] 移动: QUICK_START.md → Documents/QUICK_START.md
+[22:18:11] 移动: FAQ.md → Documents/FAQ.md
+[22:18:11] 移动: TEST_FEEDBACK.md → Documents/TEST_FEEDBACK.md
+[22:18:11] 移动: test_result_basic_functionality_20260304_221810.json → Code/test_result_basic_functionality_20260304_221810.json
+[22:18:11] 移动: test_result_performance_100_files_20260304_221810.json → Code/test_result_performance_100_files_20260304_221810.json
+[22:18:11] 移动: test_result_performance_500_files_20260304_221810.json → Code/test_result_performance_500_files_20260304_221810.json
+[22:18:11] 移动: test_result_error_invalid_path_20260304_221811.json → Code/test_result_error_invalid_path_20260304_221811.json
+[22:18:11] 移动: document1.pdf → Documents/document1.pdf
+[22:18:11] 移动: image1.jpg → Images/image1.jpg
+[22:18:11] 移动: video1.mp4 → Videos/video1.mp4
+[22:18:11] 移动: music1.mp3 → Audio/music1.mp3
+[22:18:11] 移动: archive1.zip → Archives/archive1.zip
+[22:18:11] 移动: script1.py → Code/script1.py
+[22:18:11] 移动: SKILL.md → Documents/SKILL_copy1.md
+[22:18:11] 移动: organize_log_20260304_215305.txt → Documents/organize_log_20260304_215305_copy1.txt
+[22:18:11] 移动: organize_log_20260304_215313.txt → Documents/organize_log_20260304_215313_copy1.txt
+[22:18:11] 移动: organize_log_20260304_221810.txt → Documents/organize_log_20260304_221810_copy1.txt
+[22:18:11] 移动: DOC_Doc Document1 202603_20260304.pdf → Documents/DOC_Doc Document1 202603_20260304_copy1.pdf
+[22:18:11] 移动: DOC_Doc Document2 202603_20260304.docx → Documents/DOC_Doc Document2 202603_20260304_copy1.docx
+[22:18:11] 移动: QUICK_START.md → Documents/QUICK_START_copy1.md
+[22:18:11] 移动: FAQ.md → Documents/FAQ_copy1.md
+[22:18:11] 移动: TEST_FEEDBACK.md → Documents/TEST_FEEDBACK_copy1.md
+[22:18:11] 移动: document1.pdf → Documents/document1_copy1.pdf
+
+----------------------------------------
+整理统计:
+total_files: 39
+organized_files: 39
+renamed_files: 0
+duplicates_found: 0
+duplicates_removed: 0
+errors: 0
+start_time: 2026-03-04T22:18:11.080548

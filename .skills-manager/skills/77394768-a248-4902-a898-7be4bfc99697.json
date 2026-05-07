@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "77394768-a248-4902-a898-7be4bfc99697",
+  "path": "weather-advisor",
+  "path_key": "weather-advisor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

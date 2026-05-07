@@ -1,0 +1,16 @@
+{
+  "author": null,
+  "created_at": null,
+  "description": null,
+  "install_url": null,
+  "marketplace_skill_id": "sk_284abecd7d8460fd",
+  "marketplace_skill_slug": "charon-fan/agent-playbook/self-improving-agent",
+  "marketplace_source_id": "src_skills_sh_home",
+  "name": "self-improving-agent",
+  "remote_revision": "market-api-fnv64:6fc3eae315497df3",
+  "repo_url": "https://github.com/charon-fan/agent-playbook",
+  "skill_path": "self-improving-agent",
+  "source": "marketplace",
+  "tags": [],
+  "version": "1.0"
+}

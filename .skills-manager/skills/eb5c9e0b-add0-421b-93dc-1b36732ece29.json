@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eb5c9e0b-add0-421b-93dc-1b36732ece29",
+  "path": "ecommerce-copilot",
+  "path_key": "ecommerce-copilot",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

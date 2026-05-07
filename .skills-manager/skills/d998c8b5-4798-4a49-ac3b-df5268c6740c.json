@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d998c8b5-4798-4a49-ac3b-df5268c6740c",
+  "path": "sag-2",
+  "path_key": "sag-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

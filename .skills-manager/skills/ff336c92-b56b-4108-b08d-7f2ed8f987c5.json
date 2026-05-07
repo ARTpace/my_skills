@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff336c92-b56b-4108-b08d-7f2ed8f987c5",
+  "path": "meituan-coupon-workbuddy",
+  "path_key": "meituan-coupon-workbuddy",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

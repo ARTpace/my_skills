@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cec32b07-ca29-4b1d-bd0b-0d1894646eaf",
+  "path": "exa-web-search-free",
+  "path_key": "exa-web-search-free",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

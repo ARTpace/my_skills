@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "097ec01f-c02e-45ec-a34b-0d7a425fb621",
+  "path": "电商价格比较",
+  "path_key": "电商价格比较",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

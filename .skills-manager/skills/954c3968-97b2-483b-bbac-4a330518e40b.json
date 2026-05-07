@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "954c3968-97b2-483b-bbac-4a330518e40b",
+  "path": "github-skill",
+  "path_key": "github-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7d4e9cc-39a3-4955-8ac5-0e2a33426fe7",
+  "path": "workbuddy-channel-setup-2",
+  "path_key": "workbuddy-channel-setup-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "008a60cc-f75f-4dc6-9083-2c4cc0f208d7",
+  "path": "add-uint-support-2",
+  "path_key": "add-uint-support-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

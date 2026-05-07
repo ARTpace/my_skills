@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9c8f542d-13a4-4370-81b0-b54d55aebac5",
+  "path": "gws-gmail-send-2",
+  "path_key": "gws-gmail-send-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

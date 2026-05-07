@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "873c0c4d-726f-4b64-bf3c-b3bcbbbd60aa",
+  "path": "qmd-2",
+  "path_key": "qmd-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

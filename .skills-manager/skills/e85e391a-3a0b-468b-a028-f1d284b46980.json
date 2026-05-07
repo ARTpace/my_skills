@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e85e391a-3a0b-468b-a028-f1d284b46980",
+  "path": "news-summary",
+  "path_key": "news-summary",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

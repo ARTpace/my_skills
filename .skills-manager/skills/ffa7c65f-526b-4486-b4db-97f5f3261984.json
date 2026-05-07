@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ffa7c65f-526b-4486-b4db-97f5f3261984",
+  "path": "web-api-analyzer",
+  "path_key": "web-api-analyzer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

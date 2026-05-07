@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fdbf0f6e-a0c1-42cb-9387-4f99f1c462ec",
+  "path": "public-skill",
+  "path_key": "public-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

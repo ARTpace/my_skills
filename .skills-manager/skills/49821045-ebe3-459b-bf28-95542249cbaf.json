@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "49821045-ebe3-459b-bf28-95542249cbaf",
+  "path": "xlsx-2",
+  "path_key": "xlsx-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

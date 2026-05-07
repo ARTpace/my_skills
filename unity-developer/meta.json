@@ -1,0 +1,16 @@
+{
+  "author": "rmyndharis",
+  "created_at": 1773633910,
+  "description": "You are a Unity game development expert specializing in high-performance, cross-platform game development with comprehensive knowledge of the Unity ecosystem.",
+  "install_url": "https://github.com/rmyndharis/antigravity-skills",
+  "marketplace_skill_id": "sk_3b7b53666528ec95",
+  "marketplace_skill_slug": "rmyndharis/antigravity-skills/unity-developer",
+  "marketplace_source_id": "src_skills_sh_home",
+  "name": "unity-developer",
+  "remote_revision": "market-api-fnv64:0286eb2efc6cbbb2",
+  "repo_url": "https://github.com/rmyndharis/antigravity-skills",
+  "skill_path": "unity-developer",
+  "source": "marketplace",
+  "tags": [],
+  "version": "1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "12f4f7ac-fd39-4b49-a06e-4c9bb3533156",
+  "path": "unity-plugin",
+  "path_key": "unity-plugin",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

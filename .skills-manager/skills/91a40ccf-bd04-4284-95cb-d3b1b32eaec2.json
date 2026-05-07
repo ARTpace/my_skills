@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "91a40ccf-bd04-4284-95cb-d3b1b32eaec2",
+  "path": "cnb-skill",
+  "path_key": "cnb-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

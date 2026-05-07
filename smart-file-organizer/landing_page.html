@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能文件整理助手 - 一键告别杂乱文件夹</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .tagline {
+            font-size: 24px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 18px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.4);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 107, 107, 0.6);
+        }
+        
+        .discount-badge {
+            background: #ffd93d;
+            color: #333;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        
+        section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #333;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
+        
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .feature-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .comparison {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .comparison-box {
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .before {
+            background: #ffeaa7;
+        }
+        
+        .after {
+            background: #55efc4;
+        }
+        
+        .pricing {
+            text-align: center;
+        }
+        
+        .price-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .price {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            opacity: 0.7;
+            font-size: 24px;
+        }
+        
+        .testimonials {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .testimonial {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            position: relative;
+        }
+        
+        .testimonial:before {
+            content: "❝";
+            font-size: 60px;
+            position: absolute;
+            top: -20px;
+            left: 20px;
+            opacity: 0.2;
+        }
+        
+        .stars {
+            color: #ffd93d;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            section {
+                padding: 20px;
+            }
+            
+            .logo {
+                font-size: 36px;
+            }
+            
+            .tagline {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🗂️ 智能文件整理助手</div>
+            <div class="tagline">一键告别杂乱文件夹，让电脑井井有条</div>
+            <a href="https://clawd.org.cn/skills/smart-file-organizer" class="cta-button" target="_blank">
+                立即购买 - 仅需 $12.99
+            </a>
+            <div class="discount-badge">🎁 前100名8折优惠，仅$10.39！</div>
+        </header>
+        
+        <section>
+            <h2 class="section-title">✨ 为什么选择我们？</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">极速处理</h3>
+                    <p>4500+ 文件/秒，瞬间完成整理</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">安全可靠</h3>
+                    <p>预览模式 + 自动备份，操作零风险</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">智能分类</h3>
+                    <p>自动识别文件类型，一键分类</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📝</div>
+                    <h3 class="feature-title">智能重命名</h3>
+                    <p>基于日期/内容自动命名文件</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔍</div>
+                    <h3 class="feature-title">重复检测</h3>
+                    <p>智能识别重复文件，节省空间</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">跨平台支持</h3>
+                    <p>Windows、macOS、Linux全支持</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-title">📊 整理效果对比</h2>
+            <div class="comparison">
+                <div class="comparison-box before">
+                    <h3>整理前</h3>
+                    <p style="margin-top: 20px; text-align: left;">
+                        Downloads/<br>
+                        ├── 乱七八糟的文件名1.jpg<br>
+                        ├── 未命名文档.pdf<br>
+                        ├── 截图123.png<br>
+                        ├── meeting_recording.mp4<br>
+                        ├── 重复文件_copy.jpg<br>
+                        └── ...（100+个文件）
+                    </p>
+                </div>
+                <div class="comparison-box after">
+                    <h3>整理后</h3>
+                    <p style="margin-top: 20px; text-align: left;">
+                        Downloads/<br>
+                        ├── Images/<br>
+                        │   ├── IMG_20240304_001.jpg<br>
+                        │   └── ...<br>
+                        ├── Documents/<br>
+                        │   └── DOC_会议记录_20240304.pdf<br>
+                        ├── Videos/<br>
+                        │   └── VID_20240304_001.mp4<br>
+                        ├── Backup/<br>
+                        └── organize_log.txt
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="pricing">
+            <h2 class="section-title">💰 超值价格</h2>
+            <div class="price-card">
+                <h3>个人版</h3>
+                <div class="original-price">$12.99</div>
+                <div class="price">$10.39</div>
+                <p style="margin-bottom: 30px;">限时8折优惠</p>
+                <ul style="text-align: left; margin-bottom: 30px;">
+                    <li>✅ 无限文件整理</li>
+                    <li>✅ 所有高级功能</li>
+                    <li>✅ 终身免费更新（一年）</li>
+                    <li>✅ 基础技术支持</li>
+                    <li>✅ 30天无条件退款</li>
+                </ul>
+                <a href="https://clawd.org.cn/skills/smart-file-organizer" class="cta-button" target="_blank" style="background: #ffd93d; color: #333;">
+                    立即购买
+                </a>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-title">🏆 用户评价</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"作为开发者，我经常需要整理代码和文档。这个工具节省了我大量时间，重命名功能特别实用！"</p>
+                    <p style="margin-top: 15px; font-weight: bold;">- 张先生，软件工程师</p>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"我有数万张照片需要整理，手动操作几乎不可能。这个工具10分钟就完成了，分类准确，重命名规范。"</p>
+                    <p style="margin-top: 15px; font-weight: bold;">- 李女士，摄影师</p>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"下载文件夹总是乱七八糟，找文件很困难。现在一键整理，所有文件井井有条，工作效率大大提高。"</p>
+                    <p style="margin-top: 15px; font-weight: bold;">- 王先生，办公室职员</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-title">🚀 立即开始</h2>
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <h3 style="margin-bottom: 20px;">3步开始使用：</h3>
+                <ol style="text-align: left; margin-bottom: 30px;">
+                    <li style="margin-bottom: 15px;"><strong>购买下载</strong> - 点击下方按钮购买并下载安装包</li>
+                    <li style="margin-bottom: 15px;"><strong>安装运行</strong> - 解压后运行安装脚本</li>
+                    <li style="margin-bottom: 15px;"><strong>开始整理</strong> - 运行命令开始整理文件</li>
+                </ol>
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;">
+                    <code style="display: block; text-align: left;">
+                        # 预览整理下载文件夹<br>
+                        python3 organize.py --path ~/Downloads --preview<br><br>
+                        
+                        # 实际整理并重命名<br>
+                        python3 organize.py --path ~/Downloads --rename
+                    </code>
+                </div>
+                <a href="https://clawd.org.cn/skills/smart-file-organizer" class="cta-button" target="_blank">
+                    🎉 立即购买享受8折优惠
+                </a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>智能文件整理助手 - 让文件整理变得简单</p>
+            <p style="margin-top: 20px;">
+                <a href="https://moneyclaw.ai" style="color: white; margin: 0 10px;">官网</a> | 
+                <a href="mailto:support@moneyclaw.ai" style="color: white; margin: 0 10px;">支持</a> | 
+                <a href="https://docs.moneyclaw.ai" style="color: white; margin: 0 10px;">文档</a>
+            </p>
+            <p style="margin-top: 20px; font-size: 14px;">© 2024 捞钱爪. 保留所有权利.</p>
+        </footer>
+    </div>
+    
+    <script>
+        // 简单的倒计时效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const discountBadge = document.querySelector('.discount-badge');
+            let count = 100;
+            
+            // 模拟剩余名额减少（每30秒减少1个）
+            setInterval(() => {
+                if (count > 0) {
+                    count--;
+                    discountBadge.textContent = `🎁 前100名8折优惠，还剩${count}个名额！`;
+                }
+            }, 30000);
+            
+            // 购买按钮点击统计
+            const buyButtons = document.querySelectorAll('.cta-button');
+            buyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // 这里可以添加统计代码
+                    console.log('购买按钮被点击');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

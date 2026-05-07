@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0cd413cb-d51b-4980-82cc-4747585425b1",
+  "path": "kc-gui",
+  "path_key": "kc-gui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

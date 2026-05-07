@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e79328b6-9c91-47c5-8565-609ae2bc6a64",
+  "path": "maintenance-2",
+  "path_key": "maintenance-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
