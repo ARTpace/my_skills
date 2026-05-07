@@ -1,6 +1,6 @@
 ---
 name: find-skills
-description: "帮助用户发现和安装智能体技能。当用户提出「如何做 X」、「查找某个技能」、「有没有能做……的技能」等问题，或表示希望扩展功能时使用。当用户正在寻找可能作为可安装技能存在的功能时，应使用此技能。"
+description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.
 ---
 
 # Find Skills
@@ -41,9 +41,17 @@ When a user asks for help with something, identify:
 2. The specific task (e.g., writing tests, creating animations, reviewing PRs)
 3. Whether this is a common enough task that a skill likely exists
 
-### Step 2: Search for Skills
+### Step 2: Check the Leaderboard First
 
-Run the find command with a relevant query:
+Before running a CLI search, check the [skills.sh leaderboard](https://skills.sh/) to see if a well-known skill already exists for the domain. The leaderboard ranks skills by total installs, surfacing the most popular and battle-tested options.
+
+For example, top skills for web development include:
+- `vercel-labs/agent-skills` — React, Next.js, web design (100K+ installs each)
+- `anthropics/skills` — Frontend design, document processing (100K+ installs)
+
+### Step 3: Search for Skills
+
+If the leaderboard doesn't cover the user's need, run the find command:
 
 ```bash
 npx skills find [query]
@@ -55,109 +63,45 @@ For example:
 - User asks "can you help me with PR reviews?" → `npx skills find pr review`
 - User asks "I need to create a changelog" → `npx skills find changelog`
 
-The command will return results like:
+### Step 4: Verify Quality Before Recommending
 
-```
-Install with npx skills add <owner/repo@skill>
+**Do not recommend a skill based solely on search results.** Always verify:
 
-vercel-labs/agent-skills@vercel-react-best-practices
-└ https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices
-```
+1. **Install count** — Prefer skills with 1K+ installs. Be cautious with anything under 100.
+2. **Source reputation** — Official sources (`vercel-labs`, `anthropics`, `microsoft`) are more trustworthy than unknown authors.
+3. **GitHub stars** — Check the source repository. A skill from a repo with <100 stars should be treated with skepticism.
 
-If no relevant results are found, try ClawHub as a fallback (see "ClawHub Fallback" section below).
-
-### Step 3: Present Options to the User
+### Step 5: Present Options to the User
 
 When you find relevant skills, present them to the user with:
 
 1. The skill name and what it does
-2. The install command they can run
-3. A link to learn more at skills.sh
+2. The install count and source
+3. The install command they can run
+4. A link to learn more at skills.sh
 
 Example response:
 
 ```
-I found a skill that might help! The "vercel-react-best-practices" skill provides
+I found a skill that might help! The "react-best-practices" skill provides
 React and Next.js performance optimization guidelines from Vercel Engineering.
+(185K installs)
 
 To install it:
-npx skills add vercel-labs/agent-skills@vercel-react-best-practices
+npx skills add vercel-labs/agent-skills@react-best-practices
 
-Learn more: https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices
+Learn more: https://skills.sh/vercel-labs/agent-skills/react-best-practices
 ```
 
-### Step 4: Detect Current Client
+### Step 6: Offer to Install
 
-Before installing, detect which client is running by checking the `__CFBundleIdentifier` environment variable:
-
-```bash
-echo $__CFBundleIdentifier
-```
-
-Determine the target skills directory based on the result:
-
-| `__CFBundleIdentifier` contains | Client    | Target skills dir        |
-| ------------------------------- | --------- | ------------------------ |
-| `codebuddy`                     | CodeBuddy | `~/.codebuddy/skills/`   |
-| anything else / empty / unset   | WorkBuddy | `~/.workbuddy/skills/`   |
-
-**Default to WorkBuddy**: If the variable is empty, unset, or contains any value other than `codebuddy`, treat the current client as WorkBuddy.
-
-### Step 5: Install the Skill
-
-If the user wants to proceed, install the skill:
+If the user wants to proceed, you can install the skill for them:
 
 ```bash
 npx skills add <owner/repo@skill> -g -y
 ```
 
 The `-g` flag installs globally (user-level) and `-y` skips confirmation prompts.
-
-### Step 6: Ensure Skill Is in the Correct Directory
-
-After installation, if the current client is WorkBuddy (detected in Step 4), verify the skill exists at `~/.workbuddy/skills/<skill-name>`. The CLI typically installs to `~/.agents/skills/<skill-name>/` and may not automatically link to WorkBuddy's directory.
-
-```bash
-# Check if skill already exists in WorkBuddy's directory
-ls -la ~/.workbuddy/skills/<skill-name>
-```
-
-If the skill is missing from `~/.workbuddy/skills/`, check `~/.agents/skills/<skill-name>/` and create a symlink:
-
-```bash
-# If installed at ~/.agents/skills/<skill-name>, create symlink
-ln -s ../../.agents/skills/<skill-name> ~/.workbuddy/skills/<skill-name>
-```
-
-If the skill is not in `~/.agents/skills/` either, find where it was actually installed (e.g., `~/.codebuddy/skills/<skill-name>`) and copy it:
-
-```bash
-cp -r <installed-path> ~/.workbuddy/skills/<skill-name>
-```
-
-Always confirm the skill is accessible at the target directory before reporting success to the user.
-
-## ClawHub Fallback
-
-If `npx skills find` returns no relevant results, try ClawHub (the OpenClaw skill registry) as a secondary source:
-
-```bash
-npx clawhub search [query]
-```
-
-If a match is found, install it directly to the target directory (detected in Step 4):
-
-```bash
-# For WorkBuddy (default):
-npx clawhub install <slug> --workdir ~ --dir .workbuddy/skills
-
-# For CodeBuddy:
-npx clawhub install <slug> --workdir ~ --dir .codebuddy/skills
-```
-
-After ClawHub installation, verify the skill is in the target directory (same as Step 6).
-
-**Browse ClawHub skills at:** https://clawhub.com/
 
 ## Common Skill Categories
 
@@ -181,17 +125,16 @@ When searching, consider these common categories:
 
 ## When No Skills Are Found
 
-If neither Vercel Skills nor ClawHub has relevant results:
+If no relevant skills exist:
 
-1. Acknowledge that no existing skill was found in either registry
+1. Acknowledge that no existing skill was found
 2. Offer to help with the task directly using your general capabilities
 3. Suggest the user could create their own skill with `npx skills init`
 
 Example:
 
 ```
-I searched for skills related to "xyz" in both Vercel Skills and ClawHub
-but didn't find any matches.
+I searched for skills related to "xyz" but didn't find any matches.
 I can still help you with this task directly! Would you like me to proceed?
 
 If this is something you do often, you could create your own skill:
